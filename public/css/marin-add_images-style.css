@@ -1,0 +1,65 @@
+/* CSS za view dodavanje slika */
+
+.icons-property-description{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 0px;
+    
+
+}
+.ul-icons-property-description-section{
+	list-style: none;
+    margin-left: 0;
+    margin-top: 10px;
+    
+
+}
+.li-icons-property-description-section{
+    min-width: 180px;
+    min-height: 120px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+
+}
+.li-icons-property-description-section img{
+    width: 24px;
+    height:24px;
+}
+.description-text{
+    margin-top: 20px;
+}
+.image-display img{
+    padding: 0px 5px 10px 0px;
+}
+.img-wrap {
+     padding: 0px 5px 10px 0px;
+    position: relative;
+    display: inline-block;
+}
+.img-wrap .close {
+    position: absolute;
+    color: red;
+    top: 20px;
+    right: 7px;
+    z-index: 100;
+    background-color: #FFF;
+    padding: 5px 2px 2px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .2;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+}
+.img-wrap:hover .close {
+    opacity: 1;
+}

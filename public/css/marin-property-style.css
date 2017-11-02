@@ -1,0 +1,137 @@
+
+/* PANEL KOD KREIRANJA, EDITORANJA OGLASA ONAJ NA VRHU*/
+.panel-property{
+	background-color: #f1eded;
+	height: 150px;
+	margin-bottom: 20px;
+}
+.panel-heading-property {
+    padding: 15px 30px 0px 0px;
+    background: #f1eded;
+
+}
+
+/*BANNER KOD ISPISIVANJA SVIH OGLASA*/
+.panel-add-image-header{
+    max-width: 1500px;
+    margin-bottom: 50px;
+}
+
+.panel-add-image-header img{
+    width:1500px;
+    height:200px;
+    min-width:1000px;
+}
+
+/* VIEW PROPERTY PANEL*/
+
+.property-panel-color{
+    background-color: #ececec;
+}
+.user_property_text {
+    
+    padding-left: 10px;
+}
+/*NASLOVI I PANELI ZA RAZLICITE BLADE*/
+/*PRIKAZ SVIH KORISNIKA PANEL*/
+.all_user_propertys-heading-title{
+    color: #f5f5f5;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.all_user_propertys-panel{
+    background-color: #31708f;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.all_user_propertys-panel-heading-add-title {
+    padding: 15px 30px 0px 0px;
+    background: #31708f;
+
+}
+/*EDITIRANJE APARTMANA PANEL*/
+.edit_property-heading-title{
+    color: #f5f5f5;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.edit_property-panel{
+    background-color: #5cb85c;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.edit_property-panel-heading-add-title {
+    padding: 15px 30px 0px 0px;
+    background: #5cb85c;
+
+}
+/* KREIRANJE OGLASA PANEL*/
+.new_property-heading-title{
+    color: #f5f5f5;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.new_property-panel{
+    background-color: #f0ad4e;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.new_property-panel-heading-add-title {
+    padding: 15px 30px 0px 0px;
+    background: #f0ad4e;
+
+}
+
+
+/*********** Gazenje bootstrap form controla radi samnjenja width-a select prozorcica na 30% ,70%***********************/
+.form-group-space {
+    margin-bottom: 15px;
+}
+.form-control-small{
+    display: block;
+    width: 30%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-control-large{
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.form-control-medium{
+    display: block;
+    width: 60%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
